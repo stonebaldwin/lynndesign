@@ -2,6 +2,10 @@
 
 Website redesign commissioned by Lynn Evans for [lynndesignnc.com](www.lynndesignnc.com)
 
+## Goals:
+- Redesign Logo
+- Redesign the webpage
+- Implement SEO
 
 ## Previous Design:
 
