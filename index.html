@@ -37,12 +37,38 @@
     Certain Design Elements will not only pull a room together but create a sense of well-being. The proper finishing accents and design will improve your overall lifestyle and the happiness of your family and business associates. Clients will want to return to your business as it will portray an environment that they feel comfortable in and is pleasing to the eyes.
 </p>
 
+<!-- Scroll Back to Top Button -->
+
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+<script>
+mybutton = document.getElementById("MyBtn");
+
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+    if (document.body.scrollTop > 10 ||
+    document.documentElement.scrollTop > 10) {
+        mybutton.style.display = "block";
+    } else {
+        mybutton.style.display = "none";
+    }
+}
+
+function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+}
+
+</script>
+
 <!-- Portfolio Reference -->
 
 <h2 class="hdr">Portfolio</h2>
 <img alt src="#">
 <img alt src="#">
 <img alt src="#">
+
 
 <div class="center">
     <a class="hover" href="#">See Our Portfolio</a>
@@ -60,6 +86,23 @@
     <p>contact@lynndesignnc.com</p>
 </div>
 
+<footer class="footer-wrapper">
+    <div class="row wide vertical-padding-medium">
+        <div class="large-12 columns">
+            <div class="large-3 columns hours-wrapper">
+                <p class="heading-accent sub-heading1 accent-one">Hours of Operation</p>
+                <p>
+                    <strong>Monday to Friday</strong>
+                    "8:00AM - 5:00PM"
+                </p>
+                <p>
+                    <strong>By Appointment Only on Weekends</strong>
+                </p>
+                <p class="heading-accent sub-heading1 accent-one">License #: NC600231728</p>
+            </div>
+        </div>    
+    </div>
+</footer>
 </body>
 
 </html>
