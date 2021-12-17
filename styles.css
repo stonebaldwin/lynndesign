@@ -1,1 +1,43 @@
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 18px;
+}
 
+#myBtn:hover {
+    background-color: #555;
+}
+
+.footer-wrapper {
+    background: #f5f5f5;
+    position: relative;
+    width: 100%;
+}
+
+.row.wide {
+    margin: 0 auto;
+    max-width: 1800px;
+    width: 100%;
+}
+
+.vertical-padding-medium {
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
+.columns {
+    position: relative;
+    padding-left: 0.9375rem;
+    padding-right: 0.9375rem;
+    float:left;
+}
