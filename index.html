@@ -2,7 +2,7 @@
 <html lang="en-US" lang="en">
 <head>
     <link rel="stylesheet" href="styles.css">
-    <link rel="icon" href="/assets/lynndesignlogo.png">
+    <link rel="icon" href="/assets/NewLynnFav.png">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="author" content="Lynn Designs & Interior">
 <meta charset="UTF-8">
@@ -16,16 +16,20 @@
 <body>
 
     <!-- masterpage -->
-    <a href="index.html">
-        <img alt="Lynn Design & Interior" src="/assets/LynnHeader.png" 
-        width="327" height="229">
-    </a>
+    <div class="hdr-logo">
+        <a href="index.html">
+            <img alt="Lynn Design & Interior" src="/assets/NewLynnLogo.png" 
+            width="327" height="248">
+        </a>
+    </div>
 
 <div class="navbar">
-    <a href="index.html">HOME</a>
-    <a href="about.html">ABOUT</a>
-    <a href="portfolio.html">PORTFOLIO</a>
-    <a href="contact.html">CONTACT</a>
+    <ul>
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="about.html">ABOUT</a></li>
+        <li><a href="portfolio.html">PORTFOLIO</a></li>
+        <li><a href="contact.html">CONTACT</a></li>
+    </ul>    
 </div>
 
 
@@ -39,29 +43,9 @@
 
 <!-- Scroll Back to Top Button -->
 
-<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+<button onclick="topFunction()" id="scrollTopBtn" title="Go to Top">Top</button>
 
-<script>
-mybutton = document.getElementById("MyBtn");
-
-window.onscroll = function() {scrollFunction()};
-
-function scrollFunction() {
-    if (document.body.scrollTop > 10 ||
-    document.documentElement.scrollTop > 10) {
-        mybutton.style.display = "block";
-    } else {
-        mybutton.style.display = "none";
-    }
-}
-
-function topFunction() {
-    document.body.scrollTop = 0;
-    document.documentElement.scrollTop = 0;
-}
-
-</script>
-
+<script type="text/javascript" src="scripts.js"></script>
 <!-- Portfolio Reference -->
 
 <h2 class="hdr">Portfolio</h2>
@@ -82,7 +66,7 @@ function topFunction() {
 
 <div class="center">
     <p>Winterville, NC 28590</p>
-    <p>(252)347-4060</p>
+    <p>(252) 347-4060</p>
     <p>contact@lynndesignnc.com</p>
 </div>
 
