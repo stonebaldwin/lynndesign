@@ -34,7 +34,7 @@
     color: white;
 }
 
-#myBtn {
+#scrollTopBtn {
     display: none;
     position: fixed;
     bottom: 10px;
@@ -46,11 +46,11 @@
     color: white;
     cursor: pointer;
     padding: 15px;
-    border-radius: 10px;
     font-size: 18px;
+    opacity: .8;
 }
 
-#myBtn:hover {
+#scrollTopBtn:hover {
     background-color: #555;
 }
 
