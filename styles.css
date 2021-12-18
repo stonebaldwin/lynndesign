@@ -1,3 +1,7 @@
+* {
+    background-color: #FFFAF1;
+}
+
 .hdr-logo a{
     margin-left: auto;
     margin-right: auto;
@@ -34,6 +38,18 @@
     color: white;
 }
 
+.imgbox {
+    display: grid;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.center-fit {
+    max-width: 100%;
+    margin:auto;
+}
+
 #scrollTopBtn {
     display: none;
     position: fixed;
@@ -55,9 +71,10 @@
 }
 
 .footer-wrapper {
-    background: #f5f5f5;
+    background: #FFFAF1;
     position: relative;
     width: 100%;
+    z-index: 99;
 }
 
 .row.wide {
@@ -76,4 +93,8 @@
     padding-left: 0.9375rem;
     padding-right: 0.9375rem;
     float:left;
+}
+
+.center {
+    text-align: center;
 }
