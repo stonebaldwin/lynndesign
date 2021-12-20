@@ -2,7 +2,7 @@
 <html lang="en-US" lang="en">
 <head>
     <link rel="stylesheet" href="styles.css">
-    <link rel="icon" href="/assets/lynndesignlogo.png">
+    <link rel="icon" href="/assets/NewLynnFav.png">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="author" content="Lynn Designs & Interior">
 <meta charset="UTF-8">
@@ -16,21 +16,65 @@
 <body>
 
     <!-- masterpage -->
-    <a href="index.html">
-        <img alt="Lynn Design & Interior" src="/assets/LynnHeader.png" 
-        width="327" height="229">
-    </a>
+    <div class="hdr-logo">
+        <a href="index.html">
+            <img alt="Lynn Design & Interior" src="/assets/NewLynnLogo.png" 
+            width="327" height="248">
+        </a>
+    </div>
 
 <div class="navbar">
-    <a href="index.html">HOME</a>
-    <a href="about.html">ABOUT</a>
-    <a href="portfolio.html">PORTFOLIO</a>
-    <a href="contact.html">CONTACT</a>
+    <ul>
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="about.html">ABOUT</a></li>
+        <li><a href="portfolio.html">PORTFOLIO</a></li>
+        <li><a href="contact.html">CONTACT</a></li>
+    </ul>
 </div>
 
 
 <!-- Content -->
 
+<div class="contact-body">
+    <div id="contact-form">
+        <h2 class="contact-h2">Contact Us</h2>
+
+        <form id="contact-form-id" class="contact-form-class" method="post" action="contact-form.php">
+
+            <div class="contact-form-group">
+                <label for="fName" class="contact-label">First Name</label>
+                <div class="contact-form-input">
+                    <input type="text" id="fName" name="fName" class="contact-form-control" required>
+                </div>
+            </div>
+
+            <div class="contact-form-group">
+                <label for="lName" class="contact-label">Last Name</label>
+                <div class="contact-form-input">
+                    <input type="text" id="lName" name="lName" class="contact-form-control" required>
+                </div>
+            </div>
+
+            <div class="contact-form-group">
+                <label for="Email" class="contact-label">Email Address</label>
+                <div class="contact-form-input">
+                    <input type="email" id="email" name="Email" class="contact-form-control" required>
+                </div>
+            </div>
+
+            <div class="contact-form-group">
+                <label for="Message" class="contact-label">Message</label>
+                <div class="contact-form-input">
+                    <textarea id="Message" name="Message" class="contact-form-control" rows="6" maxlength="1000" required></textarea>
+                </div>
+            </div>
+
+            <div class="contact-form-group">
+                <button type="submit" id="contact-button" class="contact-btn contact-btn-primary contact-btn-lg contact-btn-block">Submit</button>
+            </div>
+        </form>
+    </div>
+</div>
 
 </body>
 
