@@ -2,6 +2,8 @@
 
 Website redesign commissioned by Lynn Evans for [lynndesignnc.com](www.lynndesignnc.com)
 
+Progress: ![Progress Bar](https://progress-bar.dev/65)
+
 ## To-do:
 - Finish formatting the index.html page
 - Add a photo gallery to the portfolio page
